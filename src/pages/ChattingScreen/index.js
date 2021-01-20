@@ -70,7 +70,7 @@ class ChattingScreen extends Component {
                 <Text>uid user1:{JSON.stringify(uidUser1)}</Text>
                 <Text>sender : {JSON.stringify(sender)}</Text> */}
                 {/* <Text>chatting data : {JSON.stringify(this.props.chattingData)}</Text> */}
-                <Text>index chat : {JSON.stringify(this.state.indexChat)}</Text>
+                {/* <Text>index chat : {JSON.stringify(this.state.indexChat)}</Text> */}
                     <FlatList
                     ref={ref => this.flatList = ref}
                     onContentSizeChange={() => this.flatList.scrollToEnd({animated: true})}
